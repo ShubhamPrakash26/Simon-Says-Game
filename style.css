@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+body{
+    text-align: center;
+}
+h1{
+    font-family: 'Libre Baskerville', serif;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn{
+   height: 200px;
+   width: 200px;
+   border-radius: 20%;
+   border: 10px solid black;
+   margin: 2.5rem;
+   font-size: 34px;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    
+}   
+.red{
+    background-color: #d95980 ;
+}
+.green{
+    background-color: #b8e896;
+}
+.yellow{
+    background-color: #f99b45;
+}
+.purple{
+    background-color: #819ff9;
+}
+.flash{
+    background-color: white;   
+}
+.userFlash{
+    background-color: rgb(46, 205, 46);
+}
+.hs{
+    text-align: center;
+}
+.highScore{
+    display: inline;
+}
